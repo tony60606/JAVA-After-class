@@ -47,9 +47,9 @@ public class MainClass {
         String str = "Java" ;
         System.out.println("str = " + str);
         System.out.println("--------------");
-        dotest(str) ;
+        dotest(str) ;//把str的值丟給dotest方法
         System.out.println("--------------");
-        System.out.println("str = " + str);
+        System.out.println("str = " + str); //String資料不可變
         
         
     }
